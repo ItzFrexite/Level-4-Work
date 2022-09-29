@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="741CC6E6-637A-A3D4-2A79-A2C1AFCADE3D" name="switchboard">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>119CA588-A06B-88B5-5EC6-55D4D9F16FAC</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="switchboard_id" id="C165645D-CF6A-1D55-7984-081C0C361219">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>3308BA47-C82C-8969-536F-0B47A104816F</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number_1" id="9FDD98E9-9BF7-A5D9-7694-4A7DBC85FFD6">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>9B89CB86-BE6D-5DA8-D39B-FF1E364C375D</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number_2" id="DD740DF7-1E47-F691-7A9E-50C6AE206DEC">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>8455A614-D019-D7D9-AC16-76EB1E97067F</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number_3" id="F102772B-0DED-5447-38A1-A8B5C5CDD37D">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>DD8E040E-DC84-6B4F-A181-55F4190FD949</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="310188C5-A6A9-00C2-4CEF-11BFA08E8DF8" name="switchboard_PK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>8C32383A-A8D5-8ACF-A3AB-B7805A0A5666</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C165645D-CF6A-1D55-7984-081C0C361219"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

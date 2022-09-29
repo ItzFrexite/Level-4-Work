@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBD36ED6-E69D-307B-A8B5-50DDADE622A1" name="equipment_type">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>0C00C2F6-4D99-A632-35E2-D32854C11803</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="equip_id" id="4BB573DD-07EE-421E-CA73-8B806AF215A0">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>DE759890-32ED-3490-76AA-FCE7B88F5689</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="09C2F6C6-6C9F-D850-656F-A4CF34517A43">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>D2FACEC3-3678-7E98-76BE-B1B293663136</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="B92266E2-54C2-6295-1C2A-FB6CEC8F5D5F">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>CAFCFA9D-302F-0DE5-2D90-AEAF709D6D1A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_rate_daily" id="40485DA2-64EA-7ED6-C4F9-FB858F7437B4">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>1B99E94E-A0D9-A609-0C92-3B2345DE6E54</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branch_branch_id" id="E312FDED-A085-6511-F32A-209922BBA471">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>8FCD3C92-C1F9-A475-9FBA-809815AA2110</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E64E4157-D3B9-34BB-C29E-BE62B97E8B85" referredColumn="965846D2-FB42-8E10-4F7D-697C66790E44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CEEB0A5-8DB9-A17C-68B5-1217BC25834C" name="equipment_type_PK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>3A9287E5-89E2-3A89-FB6E-43D4416D37DD</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E312FDED-A085-6511-F32A-209922BBA471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B740366-E1FE-2F65-63F9-2F530B3F2A36" name="equipment_type_branch_FK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>E8263AE6-475F-4DC0-6769-CDA092CF29BF</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E312FDED-A085-6511-F32A-209922BBA471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

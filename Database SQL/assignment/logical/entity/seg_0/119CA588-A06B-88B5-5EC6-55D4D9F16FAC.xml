@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="119CA588-A06B-88B5-5EC6-55D4D9F16FAC" name="switchboard">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:07:17 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="switchboard_id" id="3308BA47-C82C-8969-536F-0B47A104816F">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:07:24 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number_1" id="9B89CB86-BE6D-5DA8-D39B-FF1E364C375D">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:07:40 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number_2" id="8455A614-D019-D7D9-AC16-76EB1E97067F">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:07:59 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number_3" id="DD8E040E-DC84-6B4F-A181-55F4190FD949">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:08:09 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C32383A-A8D5-8ACF-A3AB-B7805A0A5666" name="switchboard PK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:07:43 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3308BA47-C82C-8969-536F-0B47A104816F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

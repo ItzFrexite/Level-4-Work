@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97BC8879-D332-1C9C-1635-3BD083ED400E" name="branch">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>38CC5DCF-EF69-E73D-C16F-F6297E92960B</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="branch_id" id="965846D2-FB42-8E10-4F7D-697C66790E44">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>D5B26263-1569-52EB-D47A-E5B52BE2F801</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branch_name" id="FD082678-C082-9948-1C9C-A6303B4348C9">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>87D6C5F9-1B33-7471-B01D-EACA39061E1E</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branch_address" id="7B10A56C-300B-03B4-3E47-DA4F3560B7CA">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>0BA27B39-0AF2-0597-EE3E-1BFBA3822EC6</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branch_postcode" id="E60BD69C-D76C-98CB-B736-5D68CDBB7A68">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>23890ED2-AF44-246B-33B4-2B3B765CC619</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="allocated_manager_id" id="EAD1B81A-7CFC-6D23-3406-22851BCFBA4A">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>D58CC23D-98FC-89A8-8C54-3189D2061052</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="switchboard_fk" id="0BC1A34E-F13F-14B4-9508-2C681C2ADED8">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>473E229F-B5D3-ECE7-2FE7-E807F3FE853A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="switchboard_switchboard_id" id="003D49C2-87DA-95A2-C18B-074A05B7B9CC">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>712A09FF-3033-CD41-552F-0B098B2409E7</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC776A8E-673C-016F-FD6A-2DB4FE5267A1" referredColumn="C165645D-CF6A-1D55-7984-081C0C361219"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9175AC89-1E0B-EB86-F191-2C5F690F81A5" name="branch_PK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>A7E23B21-4311-DDA0-57FA-A3E6293CE34D</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965846D2-FB42-8E10-4F7D-697C66790E44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A87C4DB2-1BC3-B083-C701-18AE00FBB985" name="branch_switchboard_FK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>8F0FB3B9-C7AC-33C7-9747-3113E8D4A7F3</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="003D49C2-87DA-95A2-C18B-074A05B7B9CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

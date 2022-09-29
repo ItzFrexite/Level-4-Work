@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8F5BF7D-2E85-9211-ADC7-F1B88B4FD618" name="delivery">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:09:59 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="driver_id" id="6395797A-5693-093C-7A9F-A22945901ED5">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:10:15 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id_fk" id="1BC66CD5-D4DB-229D-FF0D-52646F2CB258">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:10:56 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="license_plate" id="0B4EE8AB-08BB-ECBD-DDFA-7881391F8426">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:11:28 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_license_obtained" id="1E8F1AA6-C53A-44F2-D8FB-1499A9471891">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:12:08 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiry" id="752A0593-3F43-3B72-73D9-E023C5D22EEB">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:12:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="renewal_date_of_insurance" id="1C97EFCE-49D0-6A7D-0BD4-6EEA20284513">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:12:53 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E7EC953-397E-C401-27FD-D2664D18A3C4" name="delivery PK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:10:26 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6395797A-5693-093C-7A9F-A22945901ED5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="021F4584-CF0F-A500-6E8E-E13B30313129" name="hire_transaction">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:03:48 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trans_id" id="CF921E85-20F3-5035-F53F-2DCDA7BD8234">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:05:54 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_fk" id="0FC43946-ABB9-51B3-7E62-8432C596FBB9">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:09:40 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer_fk" id="477AA9DC-ECF0-DAC2-8E7E-E5082D2412A0">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:09:48 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_hired" id="31AFDFDB-EAFB-D64D-4E32-A248A3D4DBD9">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:09:56 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time_hired" id="509FE8DA-B81A-FA4A-D865-33CE8C20314D">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:10:02 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="overall_price" id="2CC0F051-FA74-054E-E263-E9D63072846E">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:10:06 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_id" id="6B263FA3-0B82-0229-40EB-473A12211F76">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 09:08:04 UTC</createdTime>
+<generatorID>3C696111-367F-B315-E2F0-B3336956AF75</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<referedAttribute>177600C8-04F4-AC5D-6775-E302A66B3B69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_id" id="D409069D-AA34-83EF-7F44-4D20A07A8209">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:29:32 UTC</createdTime>
+<generatorID>840DDAEE-182E-5870-A60A-B5D8C29526E7</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<referedAttribute>919E9900-32BA-AAD3-DC88-E3D16C8E3B45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manager_id" id="B789802A-9CCF-A21A-B22C-0EB7154DE452">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-15 10:05:40 UTC</createdTime>
+<generatorID>3C696111-367F-B315-E2F0-B3336956AF75</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<referedAttribute>22552A77-D6CD-491B-D589-EA8DB97FF40F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A89A262-519D-2E0F-5E05-2972B9A932DF" name="hire_transaction PK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-05-18 09:10:38 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="626073DC-C579-2E61-E243-7930F4322D8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF921E85-20F3-5035-F53F-2DCDA7BD8234</attributeRef>
+<attributeRef>D409069D-AA34-83EF-7F44-4D20A07A8209</attributeRef>
+<attributeRef>6B263FA3-0B82-0229-40EB-473A12211F76</attributeRef>
+<attributeRef>B789802A-9CCF-A21A-B22C-0EB7154DE452</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

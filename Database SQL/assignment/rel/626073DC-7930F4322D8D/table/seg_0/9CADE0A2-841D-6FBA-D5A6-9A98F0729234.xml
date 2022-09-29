@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CADE0A2-841D-6FBA-D5A6-9A98F0729234" name="salary">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>87056E79-F4E0-E5C2-799E-31D56490B24E</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="salary_id" id="5896EF1B-C643-018C-4D4A-DD5946B6519D">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>BDCFB7B0-9D0F-45F5-7D83-C05BFA48D3FD</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary_amount" id="A19A1CBF-ADB8-6978-5FFF-76D39E3759E5">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>A7A7F285-1BC2-4AED-0D05-DB9477DEB393</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_job_job_id" id="B07885C5-4271-E793-8440-79A9B246477C">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-15 10:07:52 UTC</createdTime>
+<generatorID>C38170BC-C275-44F0-3789-E32439F9F698</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABE0F3AB-F276-1F7B-B238-F23D784B0F1F" referredColumn="1B2AEAE0-28A8-3F56-F991-FCFAACA7D605"/>
+</associations>
+</Column>
+<Column name="employee_manager_id" id="D3DD6B22-04A5-C40C-FB5E-330F2C616F1B">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-15 10:07:52 UTC</createdTime>
+<generatorID>387DC396-A6F7-69FC-6549-8953490CEF0A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABE0F3AB-F276-1F7B-B238-F23D784B0F1F" referredColumn="817ADC28-86FB-FEF9-138C-BD76AB714EF3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24161B62-4695-4AA0-B8C5-BE0B2FC1F666" name="salary_PK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-08 10:36:15 UTC</createdTime>
+<generatorID>76096021-B177-E8DA-A67D-B9251428ABCE</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5896EF1B-C643-018C-4D4A-DD5946B6519D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C5BD757-ED0F-BC18-85D8-BB7B93BC1AB7" name="salary_employee_FK">
+<createdBy>10170652</createdBy>
+<createdTime>2018-06-15 10:07:52 UTC</createdTime>
+<generatorID>7A371A5F-286B-B58C-204F-693AD6F16ED7</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B07885C5-4271-E793-8440-79A9B246477C"/>
+<colUsage columnID="D3DD6B22-04A5-C40C-FB5E-330F2C616F1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
